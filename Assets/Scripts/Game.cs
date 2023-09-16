@@ -81,7 +81,7 @@ namespace EATechChallenge
           "Play Time: ",
           ((int)(PlayTime / 60f)).ToString("D2"),
           ':',
-          (Mathf.RoundToInt(PlayTime) % 60).ToString("D2"));
+          (Mathf.FloorToInt(PlayTime) % 60).ToString("D2"));
         _playTimeClock.text = playTimeMessage.ToString();
       }
     }

@@ -1050,7 +1050,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You Win
+  m_text: You Win!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c5f271c687fc4ba4db95d377b9afda0b, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: c5f271c687fc4ba4db95d377b9afda0b, type: 2}
